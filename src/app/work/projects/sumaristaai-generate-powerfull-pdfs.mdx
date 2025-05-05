@@ -1,0 +1,58 @@
+---
+title: "SumaristaAI - Generate Powerful PDFs"
+description: "SumaristaAI is a powerful tool that allows users to generate PDFs to make a easy to read and share summaries of any text."
+publishedAt: "2025-04-02"
+summary: "SumaristaAI is a powerful tool that allows users to generate PDFs to make a easy to read and share summaries of any text."
+images:
+  - "/images/projects/project-01/image-06.jpg"
+team:
+  - name: ""
+    role: ""
+    avatar: ""
+    linkedIn: ""
+  - name: ""
+    role: ""
+    avatar: ""
+    linkedIn: ""
+---
+
+## Overview
+
+SumaristaAI is a powerful tool that allows users to generate PDFs to make a easy to read and share summaries of any text. The tool is designed to help users quickly and easily create professional-looking summaries that can be shared with others.
+
+## Key Features
+
+- **AI-Powered PDF Summarization**: Instantly generate concise summaries from large PDF documents using artificial intelligence.
+- **Discord Integration**: Each upload triggers a personalized notification sent directly to a designated Discord channel.
+- **Dual AI Engine**: Automatically switches between OpenAI and Gemini APIs to ensure continuous availability and performance.
+- **Freemium Model**: Users can create up to 3 summaries per day for free, with premium plans available for expanded access.
+- **Automated Daily Reset**: A GitHub Actions cron job resets the free summary count daily for free users.
+- **Built with Next.js & TypeScript**: Developed using modern technologies for optimal performance, scalability, and maintainable code.
+- **Ongoing End-to-End Testing**: Continuous implementation of E2E tests to ensure application quality and reliability.
+
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-rendered applications.
+- **TypeScript**: A superset of JavaScript that adds static types, enhancing code quality and maintainability.
+- **OpenAI API**: Utilized for generating summaries from PDF documents.
+- **Gemini API**: An alternative AI engine for generating summaries, providing redundancy and performance optimization.
+- **Discord API**: Used for sending notifications to a Discord channel upon PDF upload.
+- **GitHub Actions**: Employed for automating the daily reset of free summary counts for users.
+- **Vercel**: The hosting platform for deploying the Next.js application, ensuring fast and reliable performance.
+- **PostgreSQL**: A relational database used for storing user data and summary history.
+- **Tailwind CSS**: A utility-first CSS framework for styling the application, enabling rapid UI development.
+
+
+## Challenges and Learnings
+
+- **AI Integration**: Integrating multiple AI engines (OpenAI and Gemini) required careful management of API calls and error handling to ensure seamless user experience.
+- **Discord Notification System**: Setting up the Discord API for real-time notifications involved understanding webhooks and managing authentication tokens securely.
+- **Freemium Model Implementation**: Designing a fair and user-friendly freemium model required balancing user access with server costs, leading to the decision of limiting free users to 3 summaries per day.
+- **Automated Daily Reset**: Implementing a GitHub Actions cron job for daily resets required understanding of GitHub Actions workflows and scheduling.
+- **E2E Testing**: Establishing a robust end-to-end testing framework was crucial for maintaining application quality, especially with frequent updates and new features.
+- **User Feedback**: Gathering and implementing user feedback was essential for improving the application and ensuring it met user needs effectively.
+
+## Outcome
+
+The SumaristaAI project successfully launched, providing users with a powerful tool for generating PDF summaries. The integration of AI technology and user-friendly features has made it a valuable resource for individuals and businesses alike. The ongoing development and testing processes ensure that the application remains reliable and continues to evolve based on user feedback.
