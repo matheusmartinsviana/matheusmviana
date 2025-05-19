@@ -1,11 +1,11 @@
-const baseURL = "demo.magic-portfolio.com";
+const baseURL = "magic-portfolio-rho-nine.vercel.app";
 
 const routes = {
   "/": true,
   "/about": true,
   "/work": true,
   "/blog": true,
-  "/gallery": true,
+  "/gallery": false,
 };
 
 // Enable password protection on selected routes

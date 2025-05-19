@@ -13,7 +13,7 @@ const person = {
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -65,7 +65,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/matheusmartins",
   },
   intro: {
     display: true,
@@ -83,10 +83,11 @@ const about = {
       {
         company: "MG TECH",
         timeframe: "2023 - Present",
-        role: "Senior Frontend Developer",
+        role: "Frontend Developer",
         achievements: [
-          <>Developed and optimized high-performing UI components with React and Tailwind CSS.</>,
-          <>Implemented responsive design strategies, improving user experience across devices.</>,
+          <>Developed and optimized high-performance user interface components using React and Tailwind CSS, ensuring seamless performance and maintainability.</>,
+          <>Implemented advanced responsive design techniques, resulting in consistent and intuitive user experiences across all screen sizes.</>,
+          <>Collaborated closely with designers and backend developers to align functionality with modern UI/UX standards.</>,
         ],
         images: [],
       },
@@ -95,8 +96,9 @@ const about = {
         timeframe: "2022 - Present",
         role: "Fullstack Developer",
         achievements: [
-          <>Built custom e-commerce platforms and landing pages.</>,
-          <>Integrated third-party APIs and payment gateways.</>,
+          <>Built fully customized e-commerce platforms and conversion-focused landing pages tailored to diverse business needs.</>,
+          <>Integrated third-party APIs, payment gateways, and automation tools to enhance the capabilities and efficiency of client projects.</>,
+          <>Managed the entire development cycle — from requirement analysis to deployment — ensuring timely and high-quality deliveries.</>,
         ],
         images: [],
       },
@@ -108,7 +110,7 @@ const about = {
     institutions: [
       {
         name: "Senac Joinville College",
-        description: <>Studied Analysis and Systems Development.</>,
+        description: <>(2023/01 - 2025/06)<br/>Studied Analysis and Systems Development.</>,
       },
       {
         name: "Udemy & Alura",
