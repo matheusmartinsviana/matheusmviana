@@ -126,7 +126,29 @@ export const Mailchimp = ({ newsletter }: { newsletter: NewsletterProps }) => {
       >
         {newsletter.description}
       </Text>
-      <form
+      <Flex
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+        }}
+        fillWidth
+        maxWidth={24}
+        gap="8"
+      >
+        <Button
+          // as="a"
+          href="https://www.linkedin.com/in/matheusmartinsviana/"
+          target="_blank"
+          rel="noopener noreferrer"
+          size="m"
+          fillWidth
+        >
+          Connect on LinkedIn
+        </Button>
+      </Flex>
+
+      {/* <form
         style={{
           width: "100%",
           display: "flex",
@@ -187,7 +209,7 @@ export const Mailchimp = ({ newsletter }: { newsletter: NewsletterProps }) => {
             </Flex>
           </div>
         </Flex>
-      </form>
+      </form> */}
     </Column>
   );
 };

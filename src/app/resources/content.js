@@ -13,11 +13,12 @@ const person = {
 };
 
 const newsletter = {
-  display: false,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  display: true,
+  // title: <>Get in Touch with {person.firstName}</ >,
+  title: <>Get in Touch with me</ >,
   description: (
     <>
-      I occasionally write about web development, technology, and share insights on the latest frontend trends.
+      Want to chat about a project, collaboration, or just say hi? Feel free to reach out — I’m always open to new ideas and connections!
     </>
   ),
 };
@@ -47,8 +48,8 @@ const home = {
   headline: <>Frontend Developer & Tech Enthusiast</>,
   subline: (
     <>
-      I'm Viana, a Frontend Developer at <InlineCode>MG TECH</InlineCode>, crafting intuitive and responsive user interfaces.
-    </>
+      {/* I'm Viana, a Frontend Developer at <InlineCode>MG TECH</InlineCode>, crafting intuitive and responsive user interfaces. */}
+      I’m Viana — I used to build sleek interfaces as a frontend dev... now I break them (strategically) as a QA analyst. Same code, different superpowers!    </>
   ),
 };
 
