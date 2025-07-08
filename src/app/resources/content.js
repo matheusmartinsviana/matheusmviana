@@ -15,7 +15,7 @@ const person = {
 const newsletter = {
   display: true,
   // title: <>Get in Touch with {person.firstName}</ >,
-  title: <>Get in Touch with me</ >,
+  title: <>Get in Touch</ >,
   description: (
     <>
       Want to chat about a project, collaboration, or just say hi? Feel free to reach out — I’m always open to new ideas and connections!
