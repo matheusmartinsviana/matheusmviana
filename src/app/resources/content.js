@@ -49,7 +49,7 @@ const home = {
   subline: (
     <>
       {/* I'm Viana, a Frontend Developer at <InlineCode>MG TECH</InlineCode>, crafting intuitive and responsive user interfaces. */}
-      I’m Viana — I used to build sleek interfaces as a frontend dev... now I break them (strategically) as a QA analyst. Same code, different superpowers!    </>
+      I’m Viana — I used to build elegant interfaces as a frontend dev... now I break them (strategically) as a QA analyst. Same code, different superpowers!    </>
   ),
 };
 
