@@ -39,6 +39,11 @@ const social = [
     icon: "email",
     link: "mailto:matheusmviana@outlook.com.br",
   },
+  {
+    name: "Orcid",
+    icon: "orcid",
+    link: "https://orcid.org/0009-0006-3392-720X",
+  }
 ];
 
 const home = {

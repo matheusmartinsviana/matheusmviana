@@ -1,6 +1,7 @@
 import { Flex, IconButton, SmartLink, Text } from "@/once-ui/components";
 import { person, social } from "@/app/resources/content";
 import styles from "./Footer.module.scss";
+import { FaOrcid } from "react-icons/fa6";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -54,6 +55,6 @@ export const Footer = () => {
         </Flex>
       </Flex>
       <Flex height="80" show="s"></Flex>
-    </Flex>
+    </Flex >
   );
 };
