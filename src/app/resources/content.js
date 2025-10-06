@@ -1,4 +1,3 @@
-import { InlineCode } from "@/once-ui/components";
 
 const person = {
   firstName: "Matheus",
@@ -87,8 +86,18 @@ const about = {
     "title": "Work Experience",
     "experiences": [
       {
+        "company": "TOTVS S.A.",
+        "timeframe": "Ago 2025 - Present",
+        "role": "Quality Assurance Analyst",
+        "achievements": [
+          "Conducted thorough testing of web applications to identify and document bugs, ensuring high-quality releases.",
+          "Utilized automated testing tools to streamline the QA process, reducing manual effort and increasing efficiency.",
+        ],
+        "images": []
+      },
+      {
         "company": "Ultra LIMS",
-        "timeframe": "Nov 2024 - Present",
+        "timeframe": "Nov 2024 - Jul 2025",
         "role": "Quality Assurance Analyst",
         "achievements": [
           "Collaborated closely with developers and stakeholders to identify, document, and resolve bugs early in the development cycle.",
@@ -160,58 +169,68 @@ const about = {
     "title": "Technical Skills",
     "skills": [
       {
-        "title": "⚛️ React.js",
-        "description": "Developing dynamic and scalable interfaces using React.js with modern tools like Next.js and Vite.",
+        "title": "Cypress",
+        "description": "Strong experience in end-to-end testing automation using Cypress, ensuring software reliability, performance, and regression coverage.",
         "images": []
       },
       {
-        "title": "🎨 Tailwind CSS",
-        "description": "Designing clean, responsive, and maintainable UIs with utility-first CSS.",
+        "title": "JavaScript & TypeScript",
+        "description": "Advanced knowledge of modern JavaScript and TypeScript for building scalable applications, backend APIs, and automation tools.",
         "images": []
       },
       {
-        "title": "🐘 PostgreSQL",
-        "description": "Managing relational data efficiently using Sequelize ORM and PostgreSQL best practices.",
+        "title": "React.js & Next.js",
+        "description": "Developing dynamic, responsive interfaces with React and Next.js, applying component-based architecture and optimized rendering strategies.",
         "images": []
       },
       {
-        "title": "🟩 Node.js",
-        "description": "Building robust RESTful APIs and scalable backend services with Express.js.",
+        "title": "Node.js & Express",
+        "description": "Designing and maintaining RESTful APIs with Node.js (Express) for reliable and secure backend communication.",
         "images": []
       },
       {
-        "title": "🖌️ Figma",
-        "description": "Creating intuitive UI/UX prototypes and collaborating effectively with design teams.",
+        "title": "SQL Databases",
+        "description": "Experienced in database design and maintenance using PostgreSQL and MySQL for structured and scalable data management.",
         "images": []
       },
       {
-        "title": "🔧 Git & GitHub",
-        "description": "Ensuring effective version control and team collaboration through Git workflows and GitHub.",
+        "title": "Test Automation & QA",
+        "description": "Skilled in creating and executing automated test cases and scripts, applying QA methodologies to enhance reliability and user experience.",
         "images": []
       },
       {
-        "title": "📈 Agile Methodologies",
-        "description": "Applying Scrum and Kanban frameworks to deliver features with efficiency and flexibility.",
+        "title": "Agile Methodologies",
+        "description": "Applying Scrum and Kanban frameworks to deliver efficient, value-driven iterations aligned with business goals.",
         "images": []
       },
       {
-        "title": "🚀 CI/CD",
-        "description": "Automating build, test, and deployment pipelines using GitHub Actions and other CI/CD tools.",
+        "title": "Git & GitHub",
+        "description": "Expertise in version control, branching strategies, and collaborative workflows for clean and maintainable codebases.",
         "images": []
       },
       {
-        "title": "🧪 Testing",
-        "description": "Writing unit and integration tests with Jest and Cypress to ensure code reliability.",
+        "title": "CI/CD Pipelines",
+        "description": "Automating build, testing, and deployment workflows with GitHub Actions and continuous integration tools.",
         "images": []
       },
       {
-        "title": "⚡ Web Performance",
-        "description": "Optimizing web applications for fast load times, smooth interactions, and reduced resource usage.",
+        "title": "UX/UI Design",
+        "description": "Building user-friendly interfaces and prototypes in Figma, integrating front-end feedback loops to improve usability.",
         "images": []
       },
       {
-        "title": "🔍 SEO",
-        "description": "Implementing technical SEO strategies to improve visibility and search engine ranking.",
+        "title": "Web Performance Optimization",
+        "description": "Enhancing web applications for speed, responsiveness, and accessibility across devices.",
+        "images": []
+      },
+      {
+        "title": "API Testing & Integration",
+        "description": "Validating and automating API endpoints for robust data exchange between systems, ensuring high reliability and accuracy.",
+        "images": []
+      },
+      {
+        "title": "Continuous Improvement",
+        "description": "Driving QA and development process improvements to increase testing efficiency, maintainability, and delivery quality.",
         "images": []
       }
     ]
@@ -234,7 +253,15 @@ const gallery = {
   label: "Gallery",
   title: "My Photo Gallery",
   description: `A photo collection by ${person.name}`,
-  images: [],
+  images: [
+    { src: '/images/gallery/img-01.webp', alt: 'Apresentação final do curso de Análise e Desenvolvimento de Sistemas' },
+    { src: '/images/gallery/img-02.webp', alt: 'Competição de Empreendedorismo Reuni Challenge 2023 em Lages (2º lugar conquistado)' },
+    { src: '/images/gallery/img-03.webp', alt: 'Apresentação de pitch no evento Ágora Connect 2024 — foco em empreendedorismo e EdTech' },
+    { src: '/images/gallery/img-04.webp', alt: 'Pitch EpicAI — parceria TOTVS e Senac (1º lugar conquistado com o projeto EpicAI)' },
+    { src: '/images/gallery/img-05.webp', alt: 'Participação na Expoinovação 2023' },
+    { src: '/images/gallery/img-06.webp', alt: 'Home office setup — ambiente de trabalho e desenvolvimento remoto' },
+  ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { about, blog, gallery, home, newsletter, person, social, work };
+

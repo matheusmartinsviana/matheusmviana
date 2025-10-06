@@ -106,4 +106,5 @@ const mailchimp = {
   },
 };
 
-export { routes, protectedRoutes, effects, style, display, mailchimp, baseURL };
+export { baseURL, display, effects, mailchimp, protectedRoutes, routes, style };
+
